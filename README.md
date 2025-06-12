@@ -17,8 +17,8 @@
 # Datasets and Technical Details
 
 ## Dataset Description
-![Viking hill on Orebro](media/viking_hill.jpg)
-*Visualization of dataset collection areas.*
+![Viking hill on Orebro](media/viking_hill_sm.jpg)
+*The recorder track captures the      https://www.lansstyrelsen.se/orebro/besoksmal/kulturmiljoer/enbuskabacken.html*
 
 The datasets consist of multiple recorded loops and calibration sequences intended for evaluation and training of sensor-based localization and mapping.
 They were recorded outdoors in challenging localization conditions.
