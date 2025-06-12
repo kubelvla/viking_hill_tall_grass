@@ -17,8 +17,7 @@
 # Datasets and Technical Details
 
 ## Dataset Description
-
-![Dataset overview](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/total.jpeg)
+![Viking hill on Orebro](media/viking_hill.jpg)
 *Visualization of dataset collection areas.*
 
 The datasets consist of multiple recorded loops and calibration sequences intended for evaluation and training of sensor-based localization and mapping.
