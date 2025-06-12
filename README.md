@@ -14,16 +14,15 @@
 
   * [Video Teasers](#video-teasers)
 
-# Datasets and Technical Details
+# Dataset and Technical Details
 
 ## Dataset Description
-![Viking hill on Orebro](media/viking_hill_sm.jpg)
-*The recorder track captures the      https://www.lansstyrelsen.se/orebro/besoksmal/kulturmiljoer/enbuskabacken.html*
+![Viking hill in Orebro](media/viking_hill_sm.jpg)
+*The recorder track captures the [Enbuskabacken](https://www.lansstyrelsen.se/orebro/besoksmal/kulturmiljoer/enbuskabacken.html) area in Örebro.*
 
-The datasets consist of multiple recorded loops and calibration sequences intended for evaluation and training of sensor-based localization and mapping.
-They were recorded outdoors in challenging localization conditions.
-The datasets include LiDAR, GNSS, multiple cameras (RGB, thermal), and IMUs.
-**NIR and NDVI are provided by the Agiception camera.**
+The dataset consists of a single long trajectory through a forested area (approx. 200x200m) at the Örebro university campus.
+It was recorded in summer 2024, during the vegetation peak. The terrain is uneven because the area used to serve as a burial ground during the Viking Age (550-1050 AD).
+The dataset includes LiDAR, 4D Radar, GNSS, RGB camera and IMU.
 
 ---
 
