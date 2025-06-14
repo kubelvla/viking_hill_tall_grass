@@ -43,42 +43,47 @@ The dataset includes LiDAR, 4D Radar, GNSS, RGB camera and IMU.
 ```
 data/
 ├── calibration
-│   ├── extrinsics
-│   │   ├── extrinsics.txt
-│   │   ├── static_tf.launch
-│   │   └── static_tf.urdf
-│   └── instrinsics
-│       ├── basler.yaml
-│       ├── flir_boson.yaml
-│       ├── plantpix1.yaml
-│       └── plantpix2.yaml
-├── train
-│   ├── calibration
-│   ├── shellby-0225-train-lab
-│   │   ├── reference
-│   │   │   ├── shellby-0225-train-lab.txt
-│   │   │   └── shellby-0225-train-lab_noisy.txt
-│   │   └── shellby-0225-train-lab.bag
-│   └── shellby-0225-train-loop1
-├── validation
-│   ├── calibration
-│   └── shellby-0225-validation-loop1
-├── test/...
+│   ├── extrinsics
+│   │   ├── extrinsics.txt
+│   │   └── frames.pdf
+│   └── intrinsics
+│       ├── camera_calibration.txt
+│       └── hugin_radar_startup_params.txt
+├── test
+│   └── grass_track
+│       └── < FILES NOT PROVIDED>               
+└── train
+    └── grass_track_training
+        ├── bag_files
+        │   ├── grass_track_training__2025-06-12-22-12-48_0.bag
+        │   ├── ...
+        │   └── grass_track_training__2025-06-12-23-38-13_31.bag
+        └── reference
+            ├── reference_train_bagfile.bag
+            ├── reference_train_gps_in_utm_format.csv
+            ├── reference_train_gps_rtk_in_robot_time.csv
+            └── source_rtk_solution_from_Emlid_RTKLIB
+                ├── gps_filtered_high_accuracy.pos
+                ├── gsp_original_post_fix_including_bad_sections.pos
+                └── train_robot_time_to_gps_time.csv
 ```
 
-* `<sequence>.bag` → Raw sensory data.
-* `reference/` → Folder containing reference trajectories.
+* `rass_track_training__<sequence time and number>.bag` → Raw sensory data and static transforms.
+* `reference/` → Folder containing reference RTK trajectories.
 * `calibration/extrinsics/` → Transformations between sensor frames.
-* `calibration/instrinsics/` → Intrinsic parameters for cameras.
-* `static_tf.launch` → ROS static transform launch file.
-* `static_tf.urdf` → URDF for static transform definitions.
+* `calibration/instrinsics/` → Intrinsic parameters for the camera and radar settings.
 
 ### Reference Contents
 
-Each dataset contains a `reference/` subdirectory with:
+The dataset contains a `reference/` subdirectory with:
 
-* `*.txt`: Ground-truth trajectory (TUM or Total Station format).
-* `*_noisy.txt`: Unfiltered GNSS trajectory (may be degraded by environment).
+* `reference_train_bagfile.bag`: Reference GNSS RTK localization synchrized with the robot time, saved as a bag file.
+* `reference_train_gps_in_utm_format.csv`: The GNSS RTK expressed in the UTM coordinates, with time stamps from the robot. Format: **secs, nsecs, northing[m], easting[m], elevation, qx, qy, qz, qw**. Note that the quarternion is always identity.
+* `reference_train_gps_rtk_in_robot_time.csv`: Contains the same information as `reference_train_gps_in_utm_format.csv`, but expressed in latitude and longitude. Format: **secs, nsecs, latitude, longitude, elevation**
+* `gps_filtered_high_accuracy.pos`: RTK solution used to generate the reference samples for the files above. It does not contain sections with too few sattelites. Note that the displayed time is the GPS time (no time zone, no step seconds).
+* `gsp_original_post_fix_including_bad_sections.pos`: Complete RTK solution, wih all samples including the noisy ones.
+* `train_robot_time_to_gps_time.csv`: Conversion from the robot time to the time indicated by the GNSS. The robot was no exactly synchronized with the GNSS, there is approx. 0.6s offset. This file can be used to match those times. Format: **robot secs, robot nsecs, gnss secs, gnss nsecs ** 
+
 
 ---
 
