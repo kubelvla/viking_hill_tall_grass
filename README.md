@@ -3,9 +3,8 @@
 * [Dataset Description](#dataset-description)
 * [Dataset Descriptions](#dataset-descriptions)
 
-  * [Public Training Datasets](#public-training-datasets)
-  * [Validation Datasets](#validation-datasets)
-  * [Testing Datasets](#testing-datasets)
+  * [Public Training Dataset](#public-training-datasets)
+  * [Testing Dataset](#testing-datasets)
 * [Data Structure and File Organization](#data-structure-and-file-organization)
 
   * [Reference Contents](#reference-contents)
@@ -28,29 +27,15 @@ The dataset includes LiDAR, 4D Radar, GNSS, RGB camera and IMU.
 
 ## Dataset Descriptions
 
-### Public Training Datasets
+### Public Training Dataset
 
-* **shellby-0225-train-loop1** (451 m)
-  Loop in an open field used for training, moving further from trees.
-
-* **shellby-0225-train-lab**
-  Short indoor recording from **CTU Computational Robotics Lab** for initial testing.
-  Uses **Total Station** instead of GNSS.
-
-### Validation Datasets
-
-* **shellby-0225-validation-loop1** (313 m)
-  Small loop primarily for testing submissions. The **forest remains in LiDAR range**.
+* **grass_track_training** (1566s)
+ Initial portion of the area (the northern part)
 
 ### Testing Datasets
 
-* **shellby-0225-test-loop1** (1892 m)
-  Long loop with both field and forest. Includes a **30-second LiDAR outage** due to power loss.
-
-* **shellby-0225-test-loop2** (667 m)
-  Similar to the training loop but with **less smooth trajectory**.
-  Evaluated using **Total Station** data. Basler camera slightly overexposed.
-
+* **grass_track** (4155s)
+ The complete area, including the southern part.  
 ---
 
 ## Data Structure and File Organization
