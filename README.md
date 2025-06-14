@@ -17,7 +17,7 @@
 
 ## Dataset Description
 ![Viking hill in Orebro](media/viking_hill_sm.jpg)
-*The recorder track captures the [Enbuskabacken](https://www.lansstyrelsen.se/orebro/besoksmal/kulturmiljoer/enbuskabacken.html) area in Örebro.*
+*The recorded track captures the [Enbuskabacken](https://www.lansstyrelsen.se/orebro/besoksmal/kulturmiljoer/enbuskabacken.html) area in Örebro.*
 
 The dataset consists of a single long trajectory through a forested area (approx. 200x200m) at the Örebro university campus.
 It was recorded in summer 2024, during the vegetation peak. The terrain is uneven because the area used to serve as a burial ground during the Viking Age (550-1050 AD).
@@ -82,7 +82,7 @@ The dataset contains a `reference/` subdirectory with:
 * `reference_train_gps_rtk_in_robot_time.csv`: Contains the same information as `reference_train_gps_in_utm_format.csv`, but expressed in latitude and longitude. Format: **secs, nsecs, latitude, longitude, elevation**
 * `gps_filtered_high_accuracy.pos`: RTK solution used to generate the reference samples for the files above. It does not contain sections with too few sattelites. Note that the displayed time is the GPS time (no time zone, no step seconds).
 * `gsp_original_post_fix_including_bad_sections.pos`: Complete RTK solution, wih all samples including the noisy ones.
-* `train_robot_time_to_gps_time.csv`: Conversion from the robot time to the time indicated by the GNSS. The robot was no exactly synchronized with the GNSS, there is approx. 0.6s offset. This file can be used to match those times. Format: **robot secs, robot nsecs, gnss secs, gnss nsecs ** 
+* `train_robot_time_to_gps_time.csv`: Conversion from the robot time to the time indicated by the GNSS. The robot was no exactly synchronized with the GNSS, there is approx. 0.6s offset. This file can be used to match those times. Format: **robot secs, robot nsecs, gnss secs, gnss nsecs** 
 
 
 ---
