@@ -95,15 +95,8 @@ The dataset contains a `reference/` subdirectory with:
 
 ## Examples and Teasers
 
-![location1](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location1.jpeg)
-![location2](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location2.jpeg)
-![location3](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location3.jpeg)
-![location4](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location4.jpeg)
-![location5](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location5.jpeg)
-![location6](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location6.jpeg)
-![location7](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location7.jpeg)
-![location8](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location8.jpeg)
-![location9](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/images/location9.jpeg)
+![Viking hill in Orebro](media/husky_sm.jpg)
+![Viking hill in Orebro](media/vegetation_sm.jpg)
 
 *Example environments where data was collected.*
 
