@@ -96,14 +96,15 @@ The dataset contains a `reference/` subdirectory with:
 ## Examples and Teasers
 
 ![Viking hill in Orebro](media/husky_sm.jpg)
+
 *Recorded in June, the grass is tall enough to often obscure the robot sensors.*
 
 ![Viking hill in Orebro](media/vegetation_sm.jpg)
+
 *The robot was intentionally driven through bushes and over uneven terrain.*
 
 ### Video Teasers
 
-https://youtu.be/WGpa2mYYAf0
 [![Watch the video](https://img.youtube.com/vi/WGpa2mYYAf0/default.jpg)](https://youtu.be/WGpa2mYYAf0)
 [![Watch the video](https://img.youtube.com/vi/Ioj59OIlEVM/default.jpg)](https://youtu.be/Ioj59OIlEVM)
 
