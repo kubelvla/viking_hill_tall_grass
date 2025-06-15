@@ -1,7 +1,7 @@
 ### 📚 Table of Contents
 
 * [Dataset Description](#dataset-description)
-* [Dataset Descriptions](#dataset-descriptions)
+* [Dataset Parts](#dataset-parts)
 
   * [Public Training Dataset](#public-training-datasets)
   * [Testing Dataset](#testing-datasets)
@@ -15,7 +15,7 @@
 
 # Dataset and Technical Details
 
-## Dataset Description
+## Dataset description
 ![Viking hill in Orebro](media/viking_hill_sm.jpg)
 *The recorded track captures the [Enbuskabacken](https://www.lansstyrelsen.se/orebro/besoksmal/kulturmiljoer/enbuskabacken.html) area in Örebro.*
 
@@ -25,8 +25,7 @@ The dataset includes LiDAR, 4D Radar, GNSS, RGB camera and IMU.
 
 ---
 
-## Dataset Descriptions
-
+## Dataset Parts
 ### Public Training Dataset
 
 * **grass_track_training** (1566s)
