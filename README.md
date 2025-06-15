@@ -5,6 +5,7 @@
 * [Data Structure and File Organization](#data-structure-and-file-organization)
 * [Downloads](#downloads)
 * [Examples and Teasers](#examples-and-teasers)
+* [Acknowledgement](#acknowledgement)
 
 # The Viking Hill Dataset and Technical Details
 
@@ -107,4 +108,7 @@ The dataset contains a `reference/` subdirectory with:
 
 [![Watch the video](https://img.youtube.com/vi/WGpa2mYYAf0/default.jpg)](https://youtu.be/WGpa2mYYAf0)
 [![Watch the video](https://img.youtube.com/vi/Ioj59OIlEVM/default.jpg)](https://youtu.be/Ioj59OIlEVM)
+
+## Acknowledgement
+
 
