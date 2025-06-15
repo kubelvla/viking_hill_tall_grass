@@ -89,10 +89,7 @@ The dataset contains a `reference/` subdirectory with:
 
 ## Downloads
 
-* [All training data](https://comrob-ds.fel.cvut.cz:9001/api/v1/buckets/cb-slam/objects/download?prefix=data/train/) (52 GB, \~27 GB download)
-* [extrinsics](https://comrob-ds.fel.cvut.cz:9001/api/v1/buckets/cb-slam/objects/download?prefix=data/train/extrinsics/) (16 kB)
-* [shellby-0225-train-lab](https://comrob-ds.fel.cvut.cz:9001/api/v1/buckets/cb-slam/objects/download?prefix=data/train/shellby-0225-train-lab/) (5.5 GB, \~3.3 GB download)
-* [shellby-0225-train-loop1](https://comrob-ds.fel.cvut.cz:9001/api/v1/buckets/cb-slam/objects/download?prefix=data/train/shellby-0225-train-loop1/) (47 GB, \~24 GB download)
+* [All training data](https://cloud.oru.se/s/dDMaJ3KLm5N3PDt) (32 GB in total)
 
 ---
 
