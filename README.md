@@ -96,18 +96,14 @@ The dataset contains a `reference/` subdirectory with:
 ## Examples and Teasers
 
 ![Viking hill in Orebro](media/husky_sm.jpg)
-![Viking hill in Orebro](media/vegetation_sm.jpg)
+*Recorded in June, the grass is tall enough to often obscure the robot sensors.*
 
-*Example environments where data was collected.*
+![Viking hill in Orebro](media/vegetation_sm.jpg)
+*The robot was intentionally driven through bushes and over uneven terrain.*
 
 ### Video Teasers
 
-#### Train Dataset
+https://youtu.be/WGpa2mYYAf0
+[![Watch the video](https://img.youtube.com/vi/WGpa2mYYAf0/default.jpg)](https://youtu.be/WGpa2mYYAf0)
+[![Watch the video](https://img.youtube.com/vi/Ioj59OIlEVM/default.jpg)](https://youtu.be/Ioj59OIlEVM)
 
-[![Train teaser](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/videos/shellby-0225-train-loop1-teaser.mp4)
-
-#### Test Datasets
-
-[![Test loop 1](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/videos/shellby-0225-test-loop1-teaser.mp4)
-
-[![Test loop 2](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://comrob-ds.fel.cvut.cz:9000/cb-slam/media/videos/shellby-0225-test-loop2-teaser.mp4)
