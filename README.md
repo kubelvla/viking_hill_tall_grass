@@ -2,18 +2,11 @@
 
 * [Dataset Description](#dataset-description)
 * [Dataset Parts](#dataset-parts)
-
-  * [Public Training Dataset](#public-training-datasets)
-  * [Testing Dataset](#testing-datasets)
 * [Data Structure and File Organization](#data-structure-and-file-organization)
-
-  * [Reference Contents](#reference-contents)
 * [Downloads](#downloads)
 * [Examples and Teasers](#examples-and-teasers)
 
-  * [Video Teasers](#video-teasers)
-
-# Dataset and Technical Details
+# The Viking Hill Dataset and Technical Details
 
 ## Dataset description
 ![Viking hill in Orebro](media/viking_hill_sm.jpg)
@@ -26,12 +19,12 @@ The dataset includes LiDAR, 4D Radar, GNSS, RGB camera and IMU.
 ---
 
 ## Dataset Parts
-### Public Training Dataset
+### Public Training Part
 
 * **grass_track_training** (1566s)
  Initial portion of the area (the northern part)
 
-### Testing Datasets
+### Hidden Testing Part
 
 * **grass_track** (4155s)
  The complete area, including the southern part.  
@@ -72,6 +65,15 @@ data/
 * `calibration/extrinsics/` → Transformations between sensor frames.
 * `calibration/instrinsics/` → Intrinsic parameters for the camera and radar settings.
 
+### Sensors
+The dataset provides sensor measurements from these sensors:
+
+* Sensrad Hugin A3-Sample (solid-state 4D radar)
+* Ouster OS0-32 (3D lidar)
+* IDS Imaging uEye camera (2056x1542px)
+* Xsens MTi-30 (IMU)
+* Emlid Reach RS2+ (RTK-GNSS receiver pair)
+
 ### Reference Contents
 
 The dataset contains a `reference/` subdirectory with:
@@ -82,7 +84,6 @@ The dataset contains a `reference/` subdirectory with:
 * `gps_filtered_high_accuracy.pos`: RTK solution used to generate the reference samples for the files above. It does not contain sections with too few sattelites. Note that the displayed time is the GPS time (no time zone, no step seconds).
 * `gsp_original_post_fix_including_bad_sections.pos`: Complete RTK solution, wih all samples including the noisy ones.
 * `train_robot_time_to_gps_time.csv`: Conversion from the robot time to the time indicated by the GNSS. The robot was no exactly synchronized with the GNSS, there is approx. 0.6s offset. This file can be used to match those times. Format: **robot secs, robot nsecs, gnss secs, gnss nsecs** 
-
 
 ---
 
