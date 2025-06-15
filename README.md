@@ -111,4 +111,5 @@ The dataset contains a `reference/` subdirectory with:
 
 ## Acknowledgement
 
+The work on this dataset was supported by the European Union's Horizon Europe Framework Programme under the RaCOON project (ID: 101106906).
 
