@@ -97,7 +97,7 @@ The dataset contains a `reference/` subdirectory with:
 
 ![Viking hill in Orebro](media/husky_sm.jpg)
 
-*Recorded in June, the grass is tall enough to often obscure the robot sensors.*
+*Recorded in June, the grass was tall enough to often obscure the robot sensors.*
 
 ![Viking hill in Orebro](media/vegetation_sm.jpg)
 
