@@ -61,7 +61,7 @@ data/
                 └── train_robot_time_to_gps_time.csv
 ```
 
-* `rass_track_training__<sequence time and number>.bag` → Raw sensory data and static transforms.
+* `grass_track_training__<sequence time and number>.bag` → Raw sensory data and static transforms.
 * `reference/` → Folder containing reference RTK trajectories.
 * `calibration/extrinsics/` → Transformations between sensor frames.
 * `calibration/instrinsics/` → Intrinsic parameters for the camera and radar settings.
@@ -71,6 +71,7 @@ The dataset provides sensor measurements from these sensors:
 
 * Sensrad Hugin A3-Sample (solid-state 4D radar)
 * Ouster OS0-32 (3D lidar)
+  * Please note that the Hugin A3-Sample radar used in our dataset is an early demo model not with the same performance as the forthcoming production-ready model.
 * IDS Imaging uEye camera (2056x1542px)
 * Xsens MTi-30 (IMU)
 * Emlid Reach RS2+ (RTK-GNSS receiver pair)
