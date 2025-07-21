@@ -13,6 +13,7 @@
 ![Viking hill in Orebro](media/viking_hill_sm.jpg)
 *The recorded track captures the [Enbuskabacken](https://www.lansstyrelsen.se/orebro/besoksmal/kulturmiljoer/enbuskabacken.html) area in Örebro.*
 
+This dataset is one of the competition tracks in the SLAM challenge organized by the [Resilient SLAM in Challenging Settings](https://comrob.github.io/ecmr25slam/#about) workshop at the [ECMR 2025](https://ecmr2025.dei.unipd.it/).
 The dataset consists of a single long trajectory through a forested area (approx. 200x200m) at the Örebro university campus.
 It was recorded in summer 2024, during the vegetation peak. The terrain is uneven because the area used to serve as a burial ground during the Viking Age (550-1050 AD).
 The dataset includes LiDAR, 4D Radar, GNSS, RGB camera and IMU.
