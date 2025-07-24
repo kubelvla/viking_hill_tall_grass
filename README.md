@@ -28,7 +28,7 @@ The dataset includes LiDAR, 4D Radar, GNSS, RGB camera and IMU.
 
 ### Hidden Testing Part
 
-* **grass_track** (4155s)
+* **grass_track** (3813s)
  The complete area, including the southern part.  
 ---
 
